@@ -1,0 +1,24 @@
+.home-container {
+    display: flex;
+    height: calc(100vh - 70px);
+  }
+  
+  .content-container {
+    flex: 1;
+    overflow-y: scroll;
+  }
+  
+  .selected-menu-item {
+    font-weight: 700;
+    background-color: aliceblue;
+  }
+
+  .collapse-btn {
+     margin: 20px; 
+     position: relative; 
+     top: 0; 
+     right: 0;
+     background-color: #766EAC;
+     border-style: none;
+  }
+    

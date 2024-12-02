@@ -1,0 +1,249 @@
+/*-------------------- Patient Details page------------------------ */
+
+.patientdetails-main-con {
+    min-height: 100vh;
+    background-color: #F2F2F2;
+    padding: 50px;
+}
+
+.patientdetails-bred {
+    padding-top: 15px;
+    padding-left: 25px;
+    background-color: #F2F2F2; ;
+    font-size: 20px;
+}
+
+/*-------------------- Patient bio component------------------------ */
+
+
+.patientdetails-bio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 40px;
+    height: 160px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.patientdetails-bio-con {
+    width: 10%;
+}
+
+.patientdetails-bio-con h2 {
+    color: #656060;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.patientdetails-bio-con p {
+    color: #000;
+    text-align: left;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.patientdetails-bio button {
+    position: relative;
+    top: 20%;
+}
+
+/*-------------------- Patient vitals component------------------------ */
+
+.patientdetails-vitals {
+    margin-top: 50px;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.patientdetails-vitals-top {
+    display: flex;
+    height: 150px;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.patientdetails-vitals-selection {
+    background-color: #F9F9F9;
+    width: 60%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    gap: 30px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.patientdetails-vitals-selection button {
+    color: #2E2121;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+}
+
+.patientdetails-vitals-selection button.active {
+    background-color: rgb(255, 255, 255);
+    color: #157EE8;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    border-style: none;
+}
+  
+.patientdetails-vitals-dis {
+    margin-left: 25%;
+    margin-right: 50px;
+}
+
+.discharge {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: ease 0.3s;
+    height: 40px;
+}
+
+.discharge:hover {
+    transform: scale(1.1);
+}
+
+.patientdetails-vitals-btm {
+    border-radius: 5px;
+    background-color: #ffffff;
+    height: auto;
+    padding-bottom: 40px;
+}
+
+/* ----------------------------VitalSigns---------------------------------- */
+
+.vitalsigns-main-con {
+    border-radius: 5px;
+    background: #F2F2F2;
+    padding: 25px;
+    margin: 0px 50px;
+}
+
+.vitalsigns-top-con {
+    margin-bottom: 40px;
+    border-bottom: #0000004f 2px solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.vitalsigns-top-btns {
+    display: flex;
+    flex-direction: row;
+    margin-right: 58%;
+}
+
+.vitalsigns-top-btns button {
+    background-color: transparent;
+    color: #7A7A7A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-style: none;  
+    border-radius: 1px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+.vitalsigns-top-btns button:hover {
+    background-color: transparent;
+    border-style: none;    
+}
+
+.vitalsigns-top-btns button.active {
+    background-color: transparent;
+    border-style: none;
+    color: #2E2121;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-bottom: #000 5px solid;
+}
+
+.vitalsigns-top-date {
+    padding-right: 50px;
+
+}
+
+.vitalsigns-top-date .daterange{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.date-range-content {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  position: absolute;
+  margin-top: 20px;
+}
+
+.chart-date-picker{
+    display: flex;
+    text-align: center;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 1.05rem;
+}
+
+.addnew{
+    width: 120px;
+}
+
+.vital-table-column {
+    color: #000;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.vital-table-unit {
+    color: #000;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.vitalsigns-chart-filters {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.vitalsigns-chart-filters select {
+    width: 23%;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding-left: 12px;
+}

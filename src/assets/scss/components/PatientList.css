@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ptntlist-con {
+    background-color: #ffffff;
+    width: auto;
+    height: calc(100vh - 70px);
+    overflow-y: hidden;
+}
+
+.ptntlist-top {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 40px 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ptntlist-head {
+    font-size: 32px;
+    font-weight: 600;
+    width: 40%;
+}
+
+.ptntlist-top-search {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ptntlist-top-search input {
+    height: 40px;
+    width: 60%;
+    border: 2px solid #e1e1e1;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    padding-left: 20px;
+    margin-left: 25%;
+}
+
+.ptntlist-top-search input:focus {
+    outline: none; 
+}
+
+.ptntlist-top-search-icon {
+    height: 40px;
+    width: 40px;
+    border: 2px solid #e1e1e1;
+    border-left: none;
+    background-color: white;
+    border-radius: 0 5px 5px 0;
+    padding: 0;
+}
+
+.ptntlist-top-add {
+    cursor: pointer;
+    transition: 0.3s ease;
+    display: flex;
+    height: 40px;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ptntlist-top-add:hover {
+    transform: scale(1.1);
+}
+
+.ptntlist-mid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.ptntlist-mid-values {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #766EAC;
+    color: #ffffff;
+    width: 25%;
+    padding: 5px 0  5px 2%;
+    border-radius: 5px;
+}
+
+.ptntlist-mid-count {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.ptntlist-mid-type {    
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.ptntlist-btm {
+    padding: 0 50px 0 50px;
+    background-color: transparent;
+    flex-grow: 1;
+    overflow: auto;
+    max-height: calc(100vh - 325px); 
+}
+
+.ptntlist-btm table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ptntlist-btm thead th {
+    background-color: transparent;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+.ptntlist-btm tbody td {
+    background-color: transparent;
+    text-align: center;
+}
+
+.ptntlist-table-delete {
+    margin-left: 20px;
+    margin-right: 20px;
+}

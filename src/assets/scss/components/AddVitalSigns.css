@@ -1,0 +1,111 @@
+.vitalsigns-main {
+  width: 1272px;  
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+}
+
+.vitalsigns-top {
+  width: 1272px;
+  height: 117px;
+  background-color:#766EAC;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.vitalsigns-mid {
+  display: flex;
+  padding-top: 40px;
+}
+
+.vitalsigns-mid-left {
+  padding-left: 60px;
+}
+
+.vitalsigns-mid-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.vitalsigns-mid-box label{
+  font-size: large;
+  margin-bottom: 5px;
+}
+
+.vitalsigns-mid-box input{
+  width: 338px;
+  height: 50px;
+  border-radius: 5px;
+  border-style: none;
+  padding-left: 10px;
+  border: 1px black solid;
+}
+
+.vitalsigns-mid-box select {
+  width: 338px;
+  height: 50px;
+  border-radius: 5px;
+  border-style: none;
+  padding-left: 10px;
+  border: 1px black solid;
+}
+
+.bloodpressure {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bloodpressure input {
+  width: 160px;
+}
+
+.vitalsigns-mid-mid {
+  padding-left: 65px;
+}
+
+.vitalsigns-mid-right {
+  padding-left: 65px;
+}
+
+.vitalsigns-bot {
+  display: flex;
+  margin-left: 760px;
+  margin-top: 40px;
+}
+
+.vitalsigns-submit-but button{
+  width: 200px;
+  height: 60px;
+  border-style: none;
+  background-color: #7A66FF;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.vitalsigns-cancel-but button{
+  width: 200px;
+  height: 60px;
+  margin-left: 40px;
+  border-style: none;
+  background-color: #F95656;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.vitalsigns-submit-but button:hover {
+  background-color: #5640ea;
+}
+
+.vitalsigns-cancel-but button:hover {
+  background-color: #df3131;
+}

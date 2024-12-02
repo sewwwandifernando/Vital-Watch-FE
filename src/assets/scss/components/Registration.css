@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.patient-reg-bred {
+    padding-top: 10px;
+    padding-left: 25px;
+    background-color: #EDF5FF; 
+    font-size: 20px;
+    color:#455dc7;
+} 
+
+.patient-reg-bred-link {
+    font-style: none;
+    color:#455dc7;
+}
+
+.parag-main-con {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDF5FF; 
+}
+
+
+.parag-profile {
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+    height: 850px  ;
+    width: 60%;
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    /*box-shadow:
+        5px 0 10px rgba(0, 0, 0, 0.2), 
+        -5px 0 10px rgba(0, 0, 0, 0.2), 
+        0 5px 10px rgba(0, 0, 0, 0.2), 
+        0 -5px 10px rgba(0, 0, 0, 0.2); */
+}
+
+.parag-profile-top{
+    margin-left: 40px;
+}
+
+.profile-first-raw{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+
+.profile-top p {
+    font-weight: 500;
+    margin-bottom: 1px;
+}
+
+.profile-details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    width: 28.1%;
+}
+
+
+.profile-details input {
+    height: 40px;
+    width: 100%;
+    border-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-details select {
+    height: 40px;
+    width: 100%;
+    border-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+.profile-details-ads {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    width: 60.2%;
+}
+
+.profile-details-ads input {
+    height: 40px;
+    width: 100%;
+    border-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.patient-dateOfBirth {
+    border-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.patient-dateOfBirth:focus{
+    border-color: #000000; /* Change the border color to blue when focused */
+    outline: none;
+}
+
+.patient-dateOfBirth:active{
+    border-color: #ff6347;
+}
+
+.profile-details-ads-gud {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 100%;
+   
+}
+
+.profile-details-ads-gud input {
+    height: 40px;
+    width: 100%;
+    border-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.gurdian-p {
+  
+    margin-left: 40px;
+    font-weight: 500;
+    margin-bottom: 1px;
+}
+
+.btm-1 {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 68%;
+
+}
+
+.parag-btm-reg  button{
+    background-color: #7A66FF;
+    width: 130px;
+    border: none;
+    border-radius: 5px;
+    padding: 0;
+    margin-left: 20px;
+    
+}
+
+.parag-btm-reg p {
+    padding: 10px;
+    margin: 0;
+    color: #ffffff;
+    font-weight: 600;
+    size: 25px;
+}
+
+.parag-btm-cancel  button{
+
+    background-color: #F95656;
+    width: 130px;
+    border: none;
+    border-radius: 5px;
+    padding: 0;
+
+ }
+
+ .parag-btm-cancel p {
+    padding: 10px;
+    margin: 0;
+    color: #ffffff;
+    font-weight: 600;
+    size: 25px;
+ }
+
+ .parag-btm-reg  button:hover {
+    background-color: #5a61f7;
+
+ }
+
+ .parag-btm-cancel  button:hover {
+    background-color: rgb(226, 82, 82);
+ }

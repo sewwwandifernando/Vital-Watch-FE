@@ -1,0 +1,139 @@
+.myprof-main{
+  width: 950px;
+  height: 640px;
+  background-color: rgb(255, 255, 255);
+}
+
+.myprof-top{
+  background-color: #766EAC;
+  height: 90px;
+  display: flex;
+  padding-left: 50px;
+  align-items: center;
+}
+
+.myprof-top h1 {
+  color: #ffffff;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.myprof-mid{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.myprof-mid-left{
+  padding-top: 20px;  
+  margin-top: 20px;
+  margin-left: 70px;
+}
+
+.myprof-mid-right{
+  padding-top: 20px;  
+  margin-top: 20px;
+  margin-left: 100px;
+
+}
+
+.myprof-mid-box{
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.myprof-mid-box label {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align-last: left;
+  margin-bottom: 5px;
+}
+
+.myprof-mid-box input {
+  height: 40px;   
+  width: 350px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border-style: none;
+  border: 1px black solid;
+}
+
+.myprof-bot{
+  margin-top: 40px;
+  display: flex;
+
+
+}
+
+.myprof-bot-left{
+  margin-left: 160px;
+  margin-top: 35px;
+  color: #0368DF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.myprof-bot-right{
+  margin-left: 203px;
+  margin-top: 20px;
+}
+
+.myprof-save-but{
+  width: 160px;
+  height: 50px;
+  background-color: #7A66FF;
+  border-style: none;
+  border-radius: 5px;
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.myprof-cancel-but{
+  width: 160px;
+  height: 50px;
+  background-color: #F95656;
+  border-style: none;
+  margin-left: 30px;
+  border-radius: 5px;
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  }
+
+  .popup-overlay- {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+
+  .popup {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    position: relative;
+    border-radius: 4px;
+  }
+
+

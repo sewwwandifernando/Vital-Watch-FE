@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+   .signin-main {
+       min-height: 100vh;
+       background: #EDF5FF;       
+       justify-content: center;
+       align-items: center;
+       display: flex;
+   }
+   
+   .signin-con {
+       display: flex;
+       height: 850px;
+       border-radius: 20px;
+       width: 60%;
+       box-shadow:
+           5px 0 10px rgba(0, 0, 0, 0.2), 
+           -5px 0 10px rgba(0, 0, 0, 0.2), 
+           0 5px 10px rgba(0, 0, 0, 0.2), 
+           0 -5px 10px rgba(0, 0, 0, 0.2);
+   }
+   
+   .signin-left {   
+       height: 100%;
+       width: 60%;
+       background-color: rgb(255, 255, 255);
+       display: flex;
+       flex-direction: column;
+       padding-left: 7.5%;
+       padding-bottom: 20px;
+       border-radius: 20px 0 0 20px ;
+   }
+   
+   .signin-left-top {
+       margin-top: 50px;
+       width: 80%;
+       font-size: 40px;
+       font-weight: 700;
+       margin-bottom: 30px;
+   }
+   
+   .signin-left-mid {
+       display: flex;
+       flex-direction: column;
+       width: 75%;
+   }
+
+   .signin-left-mid-input {
+       display: flex;
+       flex-direction: column;
+       margin-bottom: 20px;
+   }
+
+   .signin-error {
+    color: red;
+    text-align: left;
+    margin-top: -20px;
+    font-size: 0.9rem;
+   }
+   
+   .signin-input-con {
+       display: flex;
+       align-items: center;
+   }
+
+   .signin-input-icon {
+      position: absolute;
+      margin-bottom: 32px;
+      margin-left: 5px;
+   }
+
+
+   
+   .signin-left-mid input, select {
+       height: 40px;
+       width: 100%;
+       border: none;
+       border-bottom: solid 1px #000000;
+       margin-bottom: 30px;
+       background-color: transparent;
+       transition: border-bottom-color 0.3s;
+       padding-left: 50px;
+     }
+     
+   .signin-left-mid input:focus {
+       outline: none; 
+       border-bottom: solid 1px #6c6c6c;
+   }
+
+   .signin-left-mid select:focus {
+       outline: none;
+   }
+   
+   .password-input-wrapper {
+       position: relative;
+       display: flex;
+       align-items: center;
+   }
+   
+   .password-toggle-icon {
+       position: absolute;
+       right: 0px;
+       top: 10%;
+       cursor: pointer;
+   }
+   
+   .signin-left-mid button {
+       height: 40px;
+       width: 40%;
+       border-style: none;
+       font-size: 18px;
+       margin-top: 30px;
+       cursor: pointer;
+       margin-bottom: 30px;
+   }
+   
+   .signin-left-mid p:hover {
+       color: #000000;
+   }
+   
+   .signin-left-bot {
+       margin-top: 0px;
+       color: #0000ff;
+       transition: 0.3s ease;
+   }
+   
+   .signin-left-bot:hover {
+       color: #000000;
+   }
+   
+   .signin-left-bot p {
+       cursor: pointer;
+   }
+
+   .signin-right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0 20px 20px 0;
+    background-color: white;
+    padding-right: 20px;
+}
+
+.signin-right-img {
+    height: 60%;
+    width: auto;
+    background-image: url('../../images/signin.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+.signin-right-bot {
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   height: 20%;
+   justify-content: center;
+   align-items: center;
+}
+
+.signin-right-logo {
+     background-image: url(../../images/logo.jpeg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-color: red;
+     width: 20%;
+     height: 60%;
+     margin-right: 20px;
+}
+
+ .signin-right-name {
+     font-size: 40px;
+     font-weight: 700;
+     text-align: left;
+ }
+   
+   
+   /* ------------------------------------------------------------------- */
+   
+   
+   @media screen and (max-width: 768px) {
+       
+       .signin-left {
+         background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3)),
+         url('../../images/signin.png');         
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: 50% 50%;
+         width: 100%;
+         background-color: rgba(0, 0, 0, 0.25);
+         border-radius: 20px;
+       }
+
+       .signin-right {
+         display: none;
+       }
+
+       .signin-mob {
+         display: block;
+       }
+
+       .signin-left-mid button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+     }

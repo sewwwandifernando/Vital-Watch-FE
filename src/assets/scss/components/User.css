@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.user-main {
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDF5FF;  
+}
+
+
+.user-top {
+    margin-bottom: 7px;
+}
+
+.user-top h1 {
+    font-weight: 900;
+}
+
+.user-con {
+
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+    width: 60%;
+    border-radius: 20px;
+    box-shadow:
+        5px 0 10px rgba(0, 0, 0, 0.2), 
+        -5px 0 10px rgba(0, 0, 0, 0.2), 
+        0 5px 10px rgba(0, 0, 0, 0.2), 
+        0 -5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.user-left-main {
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 0 0 20px;
+    background-color: #ffffff;
+    padding-left: 90px;
+    padding-top: 70px;
+  }
+
+.user-left-main input {
+    height: 50px;
+    width: 80%;
+    margin-top: 15px;
+    padding-left: 35px;
+    border-style: none;
+    border-bottom: solid 0.5px;
+        
+}
+
+.user-left-main input:focus {
+    outline: none;
+}
+
+.user-left-main select {
+    height: 50px;
+    width: 80%;
+    margin-top: 15px;
+    padding-left: 32px;
+    border-style: none;
+    border-bottom: solid 0.5px;
+    
+}
+
+.user-left-main select:focus {
+    outline: none;
+}
+
+.user-left-main select::placeholder {
+    font-weight: bolder;
+}
+
+
+.user-left-mid{
+    padding-bottom: 40px;
+}
+
+.left-mid-con {
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+.eye-icon {
+    position: absolute;
+    top: 45%;
+    right: 110px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+
+
+.user-icon {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    bottom: -10px;
+    transform: translateY(-50%);
+    cursor: pointer; 
+}
+
+
+.right-main {
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-radius: 0 20px 20px 0;
+    background-color: #ffffff;
+
+}
+
+
+.user-image {
+    position: absolute;
+    background-image: url(../../images/signin.png);
+    background-size: cover;
+    background-position: center;
+    width: 70%;
+    height: 70%;
+    margin-top: 50px;
+}
+
+.user-left-btn button {
+    width: 150px;
+    height: 40px;
+}
+
+
+.user-right-logo {
+    position: absolute;
+    background-image: url(../../images/logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 5%;
+    height: 10%;
+    bottom: 14.5%;
+    left: 55%;
+    margin-right: 20px;
+
+}
+
+.user-right-cname {
+    position: absolute;
+    bottom: 15%;
+    right: 25%;
+}
+
+.user-right-cname p {
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
